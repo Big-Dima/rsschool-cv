@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li><a href="#about-me" class="nav-link">About Me</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#code-example" class="nav-link">Code Example</a></li>
+                    <li><a href="#work-experience" class="nav-link">Work experience</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <section class="section left" id="profile">
+                <h1>Dmitrii Barybin</h1>
+                <p>Front-End Developer</p>
+                <img class="main-avatars" src="assets/img/avatars.jpg" alt="avatars">
+            </section>
+
+            <section class="section left" id="contacts">
+                <h2>Contacts</h2>
+                <ul class="section_list">
+                    <li class="li"><span class="contact">Email: fldftcvr5v2c@mail.ru</span></li>
+                    <li class="li"><span class="contact">Github:</span>
+                        <a class="contact-link" href="https://github.com/Big-Dima">
+                            Big-Dima
+                        </a>
+                    </li>
+                </ul>
+                <hr>
+            </section>
+            <section class="section left" id="about-me">
+                <h2>About Me</h2>
+                <p>
+                    I am familiar with HTML, CSS, and JavaScript.
+                    I have created simple web applications and websites.
+                    My goal is to continue growing in the field of web development and apply my knowledge in practice.
+                </p>
+                <hr>
+            </section>
+            <section class="section left" id="skills">
+                <h2>Skills</h2>
+                <ul class="section_list">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>Git, GitHub</li>
+                    <li>TypeScript</li>
+                </ul>
+                <hr>
+            </section>
+            <section class="section left" id="code-example">
+                <h2>Code Example</h2>
+                <pre>
+                    <code>
+function doSomethingAsync() {
+    return new Promise((resolve) => {
+        setTimeout(() => resolve('I did something'), 3000)
+    })
+}
+async function doSomething() {
+    console.log(await doSomethingAsync())
+    }
+console.log('Before')
+doSomething()
+console.log('After')
+                    </code>
+                </pre>
+            </section>
+            <section class="section left" id="work-experience">
+                <h2>Work experience</h2>
+                <p>
+                    I have no commercial experience
+                </p>
+                <hr>
+            </section>
+            <section class="section right" id="education">
+                <h2>Education</h2>
+                <p>
+                    Khakass State University named after N.F. Katanova.
+                    In the field of preparation "Informatics and Computer Engineering"
+                </p>
+                <p>
+                    RS Schools Course «JavaScript/Front-end. Stage 0»
+                </p>
+                <hr>
+            </section>
+            <section class="section left" id="languages">
+                <h2>Languages</h2>
+                <ul class="section_list">
+                    <li><span>Russian: </span>native speaker</li>
+                    <li><span>English: </span>A1</li>
+                </ul>
+                <hr>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer_container">
+            <a href="https://github.com/Big-Dima">
+                Big-Dima
+            </a>
+            <p>© 2024</p>
+            <a href="https://rs.school/courses/javascript-preschool-ru">
+                <img class="footer_logo" src="assets/img/rs_school_js.svg" alt="RS School">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
